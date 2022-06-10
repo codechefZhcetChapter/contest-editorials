@@ -54,7 +54,12 @@ public class BallsInTheCavities {
         return res;
     }
     public static void main(String[] args) {
-        int [] bars = {3,1,4,0,4};
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int [] bars = new int[n];
+        for (int i = 0; i < n; i++){
+            bars[i] = sc.nextInt();
+        }
         System.out.println(MaximumSCore(bars));
     }
 }

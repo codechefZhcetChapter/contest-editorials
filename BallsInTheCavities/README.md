@@ -7,7 +7,7 @@ A fair in going on in a village named Groenwijckc. Jacob saw a game and wished t
 There is a board on the wall with bars which make cavity to hold the ball. As shown in below figure, second bar can hold 1 ball in between 1st and 3rd bar.
 Similarly 4th bar can hold 2 balls one over another in between 3rd and 5th bar.
 
-
+<img src="balls.jpeg">
 
 For every ball thrown in the cavity Jacob gets 1 point and the ball will stay there in order to fill the cavity.
 You are given an integer array where elements represent the bar. Determine the maximum points Jacob can score in the game.
@@ -56,7 +56,12 @@ public class BallsInTheCavities {
         return res;
     }
     public static void main(String[] args) {
-        int [] bars = {3,1,4,0,4};
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int [] bars = new int[n];
+        for (int i = 0; i < n; i++){
+            bars[i] = sc.nextInt();
+        }
         System.out.println(MaximumSCore(bars));
     }
 }
