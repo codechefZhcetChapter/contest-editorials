@@ -2,5 +2,5 @@
 
 ## Contest Editorials by CodeChef ZHCET Chapter
 <p align="center">
-<img src="LOGO-C.png" height="200px">
+<img src="logo.png" height="200px">
 </p>
